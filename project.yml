@@ -1,0 +1,50 @@
+name: OCOS UK – Bug & Security Tracker
+description: >
+  A centralized bug and issue tracking board for all OCOS UK products, including smart contracts, DApps, wallet integrations, and AI services. 
+  This tracker ensures security, usability, and performance issues are quickly identified, prioritized, and resolved.
+
+visibility: private
+
+# Board Columns
+columns:
+  - name: New Reports
+    description: "Freshly reported bugs, vulnerabilities, or issues."
+  - name: Confirmed & Triaged
+    description: "Validated and assigned bugs with priority and severity labels."
+  - name: In Progress
+    description: "Bugs currently being investigated or fixed by the development team."
+  - name: Ready for Testing
+    description: "Fixes completed and ready for QA or CertiK review."
+  - name: Resolved / Patched
+    description: "Bugs that have been successfully fixed and deployed."
+  - name: Closed / No Action Needed
+    description: "Invalid, duplicate, or won't-fix reports."
+
+# Labels for Filtering
+labels:
+  - name: status:new
+    description: "Newly submitted issues."
+  - name: status:in-progress
+    description: "Currently being worked on."
+  - name: status:ready-for-testing
+    description: "Completed and pending review or test."
+  - name: status:resolved
+    description: "Successfully fixed."
+  - name: status:closed
+    description: "Closed without a fix."
+  - name: priority:high
+  - name: priority:medium
+  - name: priority:low
+  - name: severity:critical
+  - name: severity:medium
+  - name: severity:low
+  - name: component:smart-contract
+  - name: component:wallet-ui
+  - name: component:staking
+  - name: component:airdrops
+  - name: source:internal
+  - name: source:community
+  - name: source:CertiK
+
+# Optional - automation placeholder
+automation: disabled
